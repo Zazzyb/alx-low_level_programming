@@ -6,11 +6,11 @@
 */
 int main(void)
 {
-char ch[10] = "0123456789";
+/*using ASCII encoding*/
 int i;
-for (i = 0; i < 10; i++)
+for (i = 48; i < 58; i++)
 {
-putchar(ch[i]);
+putchar(i);
 }
 putchar('\n');
 return (0);
