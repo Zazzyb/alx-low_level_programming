@@ -21,7 +21,7 @@ putchar(z);
 if (x != 55 || y != 56)
 {
 putchar(',');
-putchar(',');
+putchar(' ');
 }
 }
 }
