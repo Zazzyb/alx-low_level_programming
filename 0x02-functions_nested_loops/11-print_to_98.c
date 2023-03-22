@@ -14,7 +14,7 @@ for (i = n; i < 98; i++)
 _putchar(i);
 }
 }
-else if (i > 98)
+else
 {
 for (i = n; i > 98; i--)
 {
