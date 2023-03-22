@@ -9,16 +9,16 @@ void print_to_98(int n)
 int i;
 if (n < 98)
 {
-for (n = i; n < 98; n++)
+for (i = n; i < 98; i++)
 {
-_putchar(n);
+_putchar(i);
 }
 }
-else if (n > 98)
+else if (i > 98)
 {
-for (n = i; n > 98; n--)
+for (i = n; i > 98; i--)
 {
-_putchar(n);
+_putchar(i);
 }
 }
 _putchar('\n');
