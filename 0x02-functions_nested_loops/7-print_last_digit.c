@@ -13,5 +13,9 @@ if (r < 0)
 r = -r;
 _putchar(r + '0');
 }
+else if(r > 0)
+{
+_putchar(r + '0');
+}
 return (r);
 }
