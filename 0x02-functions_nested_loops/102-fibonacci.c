@@ -1,0 +1,23 @@
+#include<stdio.h>
+/**
+*main - Entry point
+*
+*Return: Always 0.
+*/
+int main(void)
+{
+int d;
+unsigned long fib1 = 0, fib2 = 1, total;
+for (d = 0; d < 50; d++)
+{
+total = fib1 + fib2;
+printf("%lu", total);
+fib1 = fib2;
+fib2 = total;
+if (d == 49)
+printf("\n");
+else
+printf(", ");
+}
+return (0);
+}
