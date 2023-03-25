@@ -23,7 +23,7 @@ for (j = 3; j <= sqrt(i); j = j + 2)
 while (i % j == 0)
 {
 max = i;
-i = i/j;
+i = i / j;
 }
 }
 if (i > 2)
