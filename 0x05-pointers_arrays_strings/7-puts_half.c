@@ -21,8 +21,8 @@ j = ((i + 1) / 2);
 for (c = j; str[c] != '\0'; c++)
 {
 _putchar(str[c]);
+}
+}
+}
 _putchar('\n');
-}
-}
-}
 }
