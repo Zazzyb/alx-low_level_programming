@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+*main - generates random values
+*
+*Return: Always 0
+*/
+int main(void)
+{
+int p[100];
+int j;
+int i;
+int x;
+j = 0;
+srand(time(NULL));
+for (i = 0; i < 100; i++)
+{
+p[i] = rand() % 78;
+j += (p[i] + '0');
+putchar(p[i] + '0');
+if ((2772 - j) -'0' < 78)
+{
+2772 - j - '0';
+j += x;
+putchar(x + '0');
+break;
+}
+}
+return (0);
+}
