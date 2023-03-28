@@ -10,19 +10,11 @@ int c;
 int j;
 int i = 0;
 for (c = 0; str[c] != '\0'; c++)
-{
 i++;
 j = i / 2;
-{
 if ((i % 2) == 1)
-{
 j = ((i + 1) / 2);
-}
 for (c = j; str[c] != '\0'; c++)
-{
 _putchar(str[c]);
-}
-}
-}
 _putchar('\n');
 }
