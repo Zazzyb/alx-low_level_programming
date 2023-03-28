@@ -11,8 +11,8 @@ int main(void)
 int p[100];
 int j;
 int i;
-int x;
-j = 0;
+int t;
+ j = 0;
 srand(time(NULL));
 for (i = 0; i < 100; i++)
 {
@@ -21,9 +21,9 @@ j += (p[i] + '0');
 putchar(p[i] + '0');
 if ((2772 - j) -'0' < 78)
 {
-2772 - j - '0';
-j += x;
-putchar(x + '0');
+t = 2772 - j - '0';
+j += t;
+putchar(t + '0');
 break;
 }
 }
