@@ -18,10 +18,10 @@ while (i < x && y == 0)
 {
 if (s[i] == '-')
 ++j;
-if *s[i] >= '0' && s[i] <= '9')
+ if (s[i] >= '0' && s[i] <= '9')
 {
 z = s[i] - '0';
-if (d % 2)
+if (j % 2)
 z = -z;
 k = k * 10 + z;
 y = 1;
@@ -33,5 +33,5 @@ i++;
 }
 if (y == 0)
 return (0);
-return (n);
+return (k);
 }
