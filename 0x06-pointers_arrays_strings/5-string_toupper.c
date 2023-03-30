@@ -1,0 +1,18 @@
+#include "main.h"
+/**
+*string_toupper - change lowercase letters of a string to uppercase
+*@c: first variable
+*Return: c
+*/
+char *string_toupper(char *c)
+{
+int x;
+x = 0;
+while (c[x] != '\0')
+{
+if (c[x] >= 'a' && c[x] <= 'z')
+c[x] = c[x] - 32;
+x++;
+}
+return (c);
+}
