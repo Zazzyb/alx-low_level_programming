@@ -19,5 +19,5 @@ c[x] = s2[y];
 }
 }
 }
-return (0);
+return (c);
 }
