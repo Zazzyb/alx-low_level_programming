@@ -9,8 +9,6 @@
 char *_strpbrk(char *s, char *accept)
 {
 int x;
-unsigned int y;
-y = 0;
 while (*s)
 {
 x = 0;
@@ -18,16 +16,11 @@ while (accept[x])
 {
 if (*s == accept[x])
 {
-y++;
-break;
-}
-else if (accept[x + 1] == '\0')
-{
-return (y);
+return (s);
 }
 x++;
 }
 s++;
 }
-return (y);
+return ('\0');
 }
