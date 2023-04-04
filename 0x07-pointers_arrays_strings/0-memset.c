@@ -13,7 +13,7 @@ while (n > 0)
 {
 s[x] = b;
 n--;
-}
 x++;
+}
 return (s);
 }
