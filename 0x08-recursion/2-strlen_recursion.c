@@ -13,9 +13,5 @@ if (*s)
 i++;
 i += _strlen_recursion(s + 1);
 }
-else
-{
-_putchar('\n');
-}
 return (i);
 }
