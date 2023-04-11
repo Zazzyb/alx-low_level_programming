@@ -1,0 +1,13 @@
+#include "main.h"
+/**
+*main - Project Entry point
+*@argc: variable
+*@argv: Array
+*Return: Always 0.
+*/
+int main(argc __attribute__((unused)), char *argv[])
+{
+printf("%s", *argv);
+printf("\n");
+return (0);
+}
